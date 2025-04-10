@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1>Generate a <div>random password</div>
+        </h1>
+    </div>
+    <h3>Never use an insecure password again.</h3>
+    <div class="row-container">
+        <button id="generate" onclick="generatePassword()">Generate Password</button>
+        <div>
+            <input type="number" id="password-length" placeholder="Password Length" />
+            <button id="generate" onclick="setPasswordLength()">Set Length</button>
+        </div>
+    </div>
+    <p id="length-error-el"></p>
+    <div id="divider"></div>
+    <div id="password-container">
+        <div onclick="copyToClipboard(1)">
+            <p id="password-1"></p>
+        </div>
+        <div onclick="copyToClipboard(2)">
+            <p id="password-2"></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

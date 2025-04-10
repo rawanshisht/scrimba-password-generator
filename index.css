@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+    font-family: "karla", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: extra-bold;
+    margin-bottom: 10px;
+}
+
+h1>div {
+    color: #4ADF86;
+}
+
+h3 {
+    color: #D5D4D8;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+button {
+    background-color: #10B981;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+#divider {
+    width: 80%;
+    border: 1px solid #D5D4D8;
+    margin: 20px;
+}
+
+#password-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin-top: 20px;
+}
+
+#password-container div {
+    background-color: #273549;
+    width: 200px;
+    height: 50px;
+    border-radius: 6px;
+}
+
+#password-container>div>p {
+    color: #55F991;
+    text-align: center;
+    font-size: 16px;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+
+}
+
+#length-error-el {
+    color: red;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+}
